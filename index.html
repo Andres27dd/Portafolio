@@ -8,61 +8,172 @@
 </head>
 <body>
 
-  <header class="hero">
-    <div class="container">
-      <h1>Daniel Domínguez</h1>
-      <p class="subtitle">Estudiante de Ingeniería en Sistemas | Desarrollo web | Datos | IA | Python</p>
-      <p class="description">
-        Portafolio de proyectos enfocados en aplicaciones funcionales, análisis de datos,
-        dashboards, APIs, bases de datos e inteligencia artificial aplicada.
-      </p>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="#" class="logo">Daniel<span>.</span></a>
 
-      <div class="buttons">
-        <a href="https://www.linkedin.com/in/daniel-dominguez-b98086245" target="_blank">LinkedIn</a>
-        <a href="https://github.com/Andres27dd" target="_blank">GitHub</a>
-      </div>
-    </div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+      </ul>
+
+      <a href="#contacto" class="nav-button">Contacto</a>
+    </nav>
   </header>
 
-  <main class="container">
+  <main>
 
-    <section>
-      <h2>Sobre mí</h2>
-      <p>
-        Soy estudiante de Ingeniería en Sistemas con interés en el desarrollo de soluciones
-        tecnológicas aplicadas a gestión institucional, análisis de datos, automatización,
-        bases de datos e inteligencia artificial.
-      </p>
-    </section>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
 
-    <section>
-      <h2>Stack técnico</h2>
-      <div class="skills">
-        <span>Python</span>
-        <span>FastAPI</span>
-        <span>Streamlit</span>
-        <span>PostgreSQL</span>
-        <span>Supabase</span>
-        <span>Neon</span>
-        <span>Tableau</span>
-        <span>GitHub</span>
-        <span>APIs</span>
-        <span>IA</span>
+        <div class="hero-content">
+          <span class="eyebrow">Portafolio personal</span>
+
+          <h1>
+            FULL STACK DEVELOPER<br />
+            <span>& DATA / IA STUDENT</span>
+          </h1>
+
+          <p class="hero-description">
+            Soy Daniel Domínguez, estudiante de Ingeniería en Sistemas con interés en
+            desarrollo web, Python, bases de datos, dashboards, APIs e inteligencia artificial aplicada.
+          </p>
+
+          <div class="hero-actions">
+            <a href="https://www.linkedin.com/in/daniel-dominguez-b98086245" target="_blank" class="btn primary">
+              LinkedIn
+            </a>
+            <a href="https://github.com/Andres27dd" target="_blank" class="btn secondary">
+              GitHub
+            </a>
+          </div>
+
+          <div class="stats">
+            <div>
+              <strong>07</strong>
+              <span>Proyectos</span>
+            </div>
+            <div>
+              <strong>32</strong>
+              <span>Tecnologías</span>
+            </div>
+            <div>
+              <strong>08</strong>
+              <span>Áreas de interés</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="image-card">
+            <div class="profile-placeholder">
+              <span>DD</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
-    <section>
-      <h2>Proyectos destacados</h2>
+    <section class="services container" id="servicios">
+      <div class="section-label">Mis servicios</div>
+
+      <div class="section-header">
+        <h2>MY SERVICES</h2>
+        <p>
+          Desarrollo soluciones funcionales orientadas a gestión, datos, automatización
+          y aplicaciones conectadas con APIs.
+        </p>
+      </div>
+
+      <div class="service-grid">
+
+        <article class="service-card">
+          <div class="icon">✦</div>
+          <h3>Web Development</h3>
+          <p>
+            Creación de páginas web, portafolios y aplicaciones con diseño responsive,
+            estructura clara y enfoque profesional.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div class="icon">▣</div>
+          <h3>Data & Dashboards</h3>
+          <p>
+            Análisis de datos, visualizaciones interactivas y dashboards en Tableau
+            para presentar información de forma clara.
+          </p>
+        </article>
+
+        <article class="service-card">
+          <div class="icon">◇</div>
+          <h3>APIs & AI Apps</h3>
+          <p>
+            Desarrollo de aplicaciones conectadas a APIs, modelos de IA, bases de datos
+            y servicios backend.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="about container" id="sobre-mi">
+      <div class="section-label">Sobre mí</div>
+
+      <div class="about-grid">
+        <div>
+          <h2>ABOUT ME</h2>
+          <p>
+            Soy estudiante de Ingeniería en Sistemas con interés en crear soluciones
+            tecnológicas aplicadas a gestión institucional, análisis de datos,
+            automatización, bases de datos e inteligencia artificial.
+          </p>
+        </div>
+
+        <div class="skills-box">
+          <h3>Stack técnico</h3>
+
+          <div class="skills">
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>Streamlit</span>
+            <span>PostgreSQL</span>
+            <span>Supabase</span>
+            <span>Neon</span>
+            <span>Tableau</span>
+            <span>GitHub</span>
+            <span>APIs</span>
+            <span>IA</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section container" id="proyectos">
+      <div class="section-label">Portafolio</div>
+
+      <div class="section-header">
+        <h2>PROJECTS</h2>
+        <p>
+          Proyectos enfocados en aplicaciones funcionales, trazabilidad, inventario,
+          dashboards, APIs y soluciones con inteligencia artificial.
+        </p>
+      </div>
 
       <div class="projects">
 
-        <article class="card">
+        <article class="project-card">
+          <span class="project-number">01</span>
           <h3>CUSTOUTP</h3>
           <p>
-            Sistema propuesto para la gestión de incidencias universitarias, con enfoque en
-            trazabilidad, estados, asignación, escalamiento y evidencias.
+            Sistema propuesto para la gestión de incidencias universitarias, con enfoque
+            en trazabilidad, estados, asignación, escalamiento y evidencias.
           </p>
-          <p><strong>Tecnologías:</strong> Python, FastAPI, PostgreSQL, Streamlit</p>
+          <p class="tech">Python · FastAPI · PostgreSQL · Streamlit</p>
+
           <div class="project-links">
             <a href="#" target="_blank">Demo</a>
             <a href="#" target="_blank">GitHub</a>
@@ -70,38 +181,44 @@
           </div>
         </article>
 
-        <article class="card">
+        <article class="project-card">
+          <span class="project-number">02</span>
           <h3>Lucy Inventario</h3>
           <p>
             Prototipo de inventario de activos con ubicación, estado, responsable,
             historial técnico y relación con incidencias.
           </p>
-          <p><strong>Tecnologías:</strong> Python, Supabase, QR, PostgreSQL</p>
+          <p class="tech">Python · Supabase · QR · PostgreSQL</p>
+
           <div class="project-links">
             <a href="#" target="_blank">Demo</a>
             <a href="#" target="_blank">GitHub</a>
           </div>
         </article>
 
-        <article class="card">
+        <article class="project-card">
+          <span class="project-number">03</span>
           <h3>Dashboard Tableau CSS</h3>
           <p>
-            Dashboard interactivo para analizar planilla, estatus, cargos, salarios y cambios
-            mensuales mediante visualizaciones en Tableau.
+            Dashboard interactivo para analizar planilla, estatus, cargos, salarios
+            y cambios mensuales mediante visualizaciones.
           </p>
-          <p><strong>Tecnologías:</strong> Tableau Public, Excel, análisis de datos</p>
+          <p class="tech">Tableau Public · Excel · Análisis de datos</p>
+
           <div class="project-links">
             <a href="#" target="_blank">Dashboard</a>
           </div>
         </article>
 
-        <article class="card">
+        <article class="project-card">
+          <span class="project-number">04</span>
           <h3>Clasificador de incidencias con IA</h3>
           <p>
             Aplicación que recibe una descripción de una incidencia y sugiere categoría,
             prioridad inicial y posible entidad responsable.
           </p>
-          <p><strong>Tecnologías:</strong> Python, API de IA, FastAPI, Streamlit</p>
+          <p class="tech">Python · API de IA · FastAPI · Streamlit</p>
+
           <div class="project-links">
             <a href="#" target="_blank">Demo</a>
             <a href="#" target="_blank">API</a>
@@ -112,11 +229,25 @@
       </div>
     </section>
 
-    <section>
-      <h2>Contacto</h2>
-      <p>
-        Puedes contactarme por LinkedIn o revisar mis proyectos en GitHub.
-      </p>
+    <section class="contact container" id="contacto">
+      <div class="contact-box">
+        <div>
+          <div class="section-label">Contacto</div>
+          <h2>LET'S WORK TOGETHER</h2>
+          <p>
+            Puedes contactarme por LinkedIn o revisar mis proyectos en GitHub.
+          </p>
+        </div>
+
+        <div class="hero-actions">
+          <a href="https://www.linkedin.com/in/daniel-dominguez-b98086245" target="_blank" class="btn primary">
+            LinkedIn
+          </a>
+          <a href="https://github.com/Andres27dd" target="_blank" class="btn secondary">
+            GitHub
+          </a>
+        </div>
+      </div>
     </section>
 
   </main>
